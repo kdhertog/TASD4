@@ -1,9 +1,6 @@
 ''' Displace data to desired location. Run program and give inputs. - Vincent Meijer.'''
-
-import math as m #Change made by Koen
-
-
 from numpy import *
+
 outputname = input('File output name: ')
 key = int(input('Give test number: '))
 columns = input('Give column range (e.g. 1:4): ').split(':')
